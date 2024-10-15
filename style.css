@@ -1,0 +1,226 @@
+*{
+    margin:0;
+    padding: 0;
+box-sizing: border-box;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    
+}
+/* profile part */
+.profile_container{
+    background-color: #23232c;
+}
+div.profile{
+height: 292px;
+width: 50%;
+margin: auto;  
+display: flex;
+ 
+}
+div.pic{
+   width: 40%;
+   display: block; 
+}
+div.pic img{
+    width: 100%;
+    height: 100%;
+ }
+div.bio{
+    display: flex;
+    flex-direction: column;
+height: 100%;
+width: 60%;
+background-color: #222438;
+color: #f5f5f3;
+}
+div.bio header{
+flex-grow: 0.3;    
+}
+div.bio hr{
+    width: 90%;
+    position: relative;
+    left: 20px;
+    color: #555459;
+}
+div.bio .info{
+    display: flex;
+ flex-direction: column;   
+ flex-grow: 0.5;
+ row-gap: 12px;
+ position: relative;
+ left: 14px;
+ top: 12px;
+}
+div.info span{
+    font-size: 14px;
+    font-weight: 900;
+}
+
+div.info span .value{
+font-size: 13px;
+font-weight: 200;
+}
+
+div.info span .edu{
+    font-size: 10px;
+    font-weight: 200;
+    }
+    
+div.social{
+   flex-grow: 0.2; 
+display: flex;   
+flex-direction: row;
+align-items: flex-start; 
+background-color: #ededed;
+}
+.social a {
+    width: 25%;
+    font-size: 22px;
+    position: relative;
+    height: 100%;
+    text-align: center;
+   transition: 700ms ease;
+  }
+  
+  .social a i{
+    color:#000 ;
+    position: relative;
+    top: 28%;
+  }
+  .social a:hover{
+    background-color: #000 ;
+    /* color:  #ededed;; */
+  }
+  .social a:hover i{
+    color:  #ededed;
+  }
+  header.name{
+font-size: 21px;
+text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+  header.name span{
+    font-size: 14px;
+  }
+
+/* About part */
+.About{
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: #1e1d1b;
+}
+.About header{
+padding: 10px ;
+ font-size: 28px;
+ font-weight:1000 ;
+ color:azure;
+ text-align: center;   
+}
+.About hr{
+  width: 3%;
+  position: relative;
+  margin: auto;  
+}
+.choice{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+.choice span{
+    color: #f4f3f3;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    transition: 700ms ease-in-out;
+}
+.choice span.active{
+background-color:#7916d8 ;
+}
+.description {
+    display: block;
+
+}
+.description p{
+  width: 70%;
+  margin: auto;
+  color: #f4f3f3;
+  text-align: center;  
+  line-height: 30px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+ .skills{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 100px;
+    position: relative;
+    left: 30px;
+ }
+ .skills .skillcard{
+width: 220px;
+/* height: 500px; */
+display: flex;
+flex-direction: column;
+background-color: #1e1f33;
+border-radius: 10px;
+box-shadow: 0 2px 4px rgba(255, 148, 148, 0.2);
+}
+
+.skills .skillcard svg{
+height: 70px;
+position: relative;
+width: 100%;
+/* width: ; */
+ padding-top: 5px;
+}
+.skillcard h3{
+   
+    text-align: center;
+    font-size: 20px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    color:darkcyan;
+}
+.skillcard p{
+    text-align: center;
+font-size: 12px;
+line-height: 21px;
+color: #b3b3b3;
+}
+
+
+/*gallery  */
+
+div.Gallery{
+background-color:#979797;
+padding:2%;
+}
+.works{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.Gallery img{
+width: 259px;
+height: 142px;  
+border-radius: 4%;
+}
+.card-title{
+  font-size:18px;
+}
+.card-text{
+  font-size:13px;
+}
+.Gallery h2{
+  padding-bottom: 24px;
+  font-style: Arial;
+  font-size: 35px;
+  color: white;
+}
